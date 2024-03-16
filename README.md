@@ -25,6 +25,15 @@ install to $PATH (optional)
 cp matrix /usr/local/bin
 ```
 
+### Docker
+
+(optional, or if your local bash is too old)
+
+```bash
+docker build -t matrix .
+docker run --rm -it matrix
+```
+
 ## Execution
 if installed to $PATH `matrix`, otherwise `./matrix` or `bash matrix`
 
